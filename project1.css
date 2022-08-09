@@ -1,0 +1,51 @@
+body {
+ margin:0; padding: 0; 
+ background-color:#e74646;
+}
+h2{
+	display: none;
+}
+.starting{
+	display:flex;
+	justify-content: center;
+    margin-top: 234px;
+    margin-left:380px;
+    position: fixed;
+}
+.intro{
+background:blue;
+width:320px;
+height:200px;
+font-size:1.8rem;
+border-radius:10%;
+color:white;
+}
+.start{
+	background:green;
+	width:100px;
+	height:200px;
+	border-radius:10%;
+	text-align:center;
+	font-size:2rem;
+	color:white;
+}
+.game{
+	width : 620px;
+	height:620px;
+	background-color:black;
+	display:grid;
+	grid-template-columns: auto auto auto;
+	margin-left:300px;
+	visibility:hidden;
+	margin-top: -200px;
+}
+.block{
+	width:200px;
+	height:200px;
+    background-color:grey;
+	border-style: solid;
+	border-color: pink;
+}
+.nami{
+	background-image: url(namilogo.png);
+}
